@@ -11,9 +11,11 @@ func main() {
 	nextNumbers := generateNextNumbers(sequence, 6, 1, 49)
 	printResults(nextNumbers, 6)
 
+	sequence = []int{4, 12, 20, 23, 24, 49}
 	nextNumbers = generateNextNumbers(sequence, 6, 2, 49)
 	printResults(nextNumbers, 6)
 
+	sequence = []int{4, 12, 20, 23, 24, 49}
 	nextNumbers = generateNextNumbers(sequence, 6, 3, 49)
 	printResults(nextNumbers, 6)
 
@@ -23,10 +25,12 @@ func main() {
 	printResults(nextNumbers, 6)
 
 	// lotto plus step 2
+	sequence = []int{9, 10, 20, 23, 24, 44}
 	nextNumbers = generateNextNumbers(sequence, 6, 2, 49)
 	printResults(nextNumbers, 6)
 
 	// lotto plus step 3
+	sequence = []int{8, 9, 19, 22, 23, 43}
 	nextNumbers = generateNextNumbers(sequence, 6, 3, 49)
 	printResults(nextNumbers, 6)
 }
